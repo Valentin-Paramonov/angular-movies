@@ -1,0 +1,13 @@
+{
+  "name": "angularjs",
+  "version": "0.0.1",
+  "description": "App built during GDG Riga Angular.js workshop",
+  "main": "server.js",
+  "jasmine": "2.3.1",
+  "scripts": {},
+  "dependencies": {
+    "express": "~4.12.4",
+    "connect-jade-static": "~0.2.2",
+    "angular": "~1.4.3"
+  }
+}
