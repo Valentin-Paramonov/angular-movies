@@ -1,0 +1,4 @@
+div#search
+    input(placeholder='Search' ng-model='mc.query' ng-change='mc.search(mc.query)')
+    ul.results
+        li(ng-repeat='movie in mc.results' ng-click='mc.select(movie)') {{ movie.title }}

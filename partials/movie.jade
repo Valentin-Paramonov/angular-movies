@@ -1,0 +1,5 @@
+div#movie
+    h2 {{ mc.movie.title }}
+    div#backdrops
+        img.backdrop(ng-repeat='image in mc.images' ng-src='https://image.tmdb.org/t/p/w185{{image.file_path}}')
+    p {{ mc.movie.overview }}
